@@ -108,9 +108,52 @@ require('./sheep_core/config.php');
                 </div>
             </div>
             </form>
+            <!--- FIM PRODUTO  --->
+
         </div>
 
         <!--- FIM LINHA PRODUTO DO SITE --->
+
+        <!--- BARRA LATERAL DO SITE --->
+
+        <div class="barra">
+
+        <div class="topodocarrinho">
+            <p>Meu Carrinho</p>
+        </div>
+
+        <!--- PRODUTO CARRINHO --->
+
+            <div class="item-carrinho">
+                <div class="linha-da-imagem">
+                    <img src="assets/img/produto-1.jpeg" alt="" class="img-carrinho">
+                </div>
+                <p>Primeiro Teste</p>
+                <h2>R$ 497</h2>
+                <form action="filtros/excluir.php" method="post">
+                    <input type="hidden" name="id_produto" value="">
+                    <button type="submit" style="border:none; background:none">  <i class="fa fa-trash-o"></i> </button>
+                </form>
+            </div>
+
+
+        <!--- FIM PRODUTO CARRINHO --->
+
+
+        <div class="item-carrinho-vazio">Seu Carrinho está vazio!</div>
+
+        <div class="rodapé">
+            <h3>Total</h3>
+            <h2>R$ 497</h2>
+        </div>
+
+
+
+        </div>
+
+
+        <!--- FIM BARRA LATERAL DO SITE --->
+
 
 
     </div>
